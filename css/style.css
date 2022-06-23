@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.timer{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 20px;
+    height:20px;
+    top: 260px;
+    left: 490px;
+}
+.background{
+   min-height: 100vh;
+   width: 100%;
+   background-image: url(../img/bomb.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.buttonStart{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 55px;
+    height: 20px;
+    top: 320px;
+    left: 415px;
+}
+.buttonStop{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 55px;
+    height: 20px;
+    top: 320px;
+    left: 470px;
+}
+.buttonReset{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 55px;
+    height: 20px;
+    top: 320px;
+    left: 525px;
+}
